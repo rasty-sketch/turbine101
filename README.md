@@ -16,6 +16,9 @@ Here is a quick snapshot of what I've tackled so far:
 * [**Week 2 — Anchor Vault (`q4_26_vault`)**](anchor_vault_starter_q4_26/)  
   On-chain SOL vault program built with **Rust** and **Anchor**, featuring deterministic `VaultState` and `SystemAccount` PDAs across `initialize`, `deposit`, `withdraw`, and `close` instructions, verified end-to-end with **LiteSVM**.
 
+* [**Week 2 — Custom Timed Escrow (`my_custom_escrow_q4`)**](my_custom_escrow_q4/)  
+  Timed conditional SPL Token & Token-2022 escrow built with **Rust** and **Anchor**, supporting `make`, `take`, `refund`, and `update` with `Clock`-enforced unlock/expiry windows and optional arbiter co-signatures, verified end-to-end with **LiteSVM**.
+
 ---
 
 ## 🚀 How to Run Any Project
