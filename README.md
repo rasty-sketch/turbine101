@@ -13,8 +13,8 @@ Here is a quick snapshot of what I've tackled so far:
 * [**Week 1 — Solana Smoker (SPL & Metaplex Core)**](solana_smoker/)  
   Deep dive into tokenomics on Solana: creating fungible SPL tokens with `@solana/kit`, and exploring the entire lifecycle of Metaplex Core NFTs (uploading to Irys, minting, updating metadata, transferring, and burning to reclaim rent).
 
-* **Week 2 — Anchor Vault** *(In progress)*  
-  Writing on-chain Rust programs with Anchor: implementing a secure vault contract with deposit, withdraw, and close instructions.
+* [**Week 2 — Anchor Vault (`q4_26_vault`)**](anchor_vault_starter_q4_26/)  
+  On-chain SOL vault program built with **Rust** and **Anchor**, featuring deterministic `VaultState` and `SystemAccount` PDAs across `initialize`, `deposit`, `withdraw`, and `close` instructions, verified end-to-end with **LiteSVM**.
 
 ---
 
