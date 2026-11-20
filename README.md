@@ -19,6 +19,9 @@ Here is a quick snapshot of what I've tackled so far:
 * [**Week 2 — Custom Timed Escrow (`my_custom_escrow_q4`)**](my_custom_escrow_q4/)  
   Timed conditional SPL Token & Token-2022 escrow built with **Rust** and **Anchor**, supporting `make`, `take`, `refund`, and `update` with `Clock`-enforced unlock/expiry windows and optional arbiter co-signatures, verified end-to-end with **LiteSVM**.
 
+* [**Week 3 — Manual Minimal AMM**](manual_minimal_amm/)
+  SPL Token swaps with handwritten pricing, LP deposits and withdrawals, and a treasury that collects swap fees. Built with **Rust** and **Anchor**, with **LiteSVM** tests for all four instructions.
+
 ---
 
 ## 🚀 How to Run Any Project
